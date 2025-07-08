@@ -55,26 +55,36 @@ A professional, DevOps-enabled IoT Device Management Platform built with Node.js
 1️⃣ Clone the repository
 
 git clone https://github.com/falbd/iot-device-platform.git
+
 cd iot-device-platform
 
 2️⃣ Install dependencies
 npm install
 
 3️⃣ Create your .env file in the project root
+
 PORT=5000
+
 MONGO_URI=your_mongodb_connection_string
+
 JWT_SECRET=your_jwt_secret
 
 🚦 Running the Project
 
 🖥️ Development mode
+
 npm run dev
+
 The server will start on:
+
 http://localhost:5000
 
 🐳 Run with Docker
+
 Build and run the container:
+
 docker build -t iot-device-platform .
+
 docker run -p 5000:5000 iot-device-platform
 
 📮 API Endpoints
@@ -93,13 +103,17 @@ GET /api/devices – Retrieve user’s registered devices (requires JWT)
 POST /api/telemetry – Push telemetry data (requires device apiKey)
 
 🖥️ Real-time Telemetry Streaming
+
 Connect to the Socket.IO server:
+
 ws://localhost:5000
 
 Join a device room:
+
 socket.emit("joinDeviceRoom", "<deviceId>");
 
 Receive telemetry data in real-time:
+
 socket.on("telemetry", (data) => {
   console.log(data);
 });
