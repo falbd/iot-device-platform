@@ -52,16 +52,12 @@ A professional, DevOps-enabled IoT Device Management Platform built with Node.js
 
 ⚙️ Installation
 1️⃣ Clone the repository
-bash
-Copy
-Edit
 git clone https://github.com/falbd/iot-device-platform.git
 cd iot-device-platform
+
 2️⃣ Install dependencies
-bash
-Copy
-Edit
 npm install
+
 3️⃣ Create your .env file in the project root
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
@@ -108,7 +104,9 @@ socket.on("telemetry", (data) => {
 
 🛡 Security
 ✅ JWT authentication for protected routes
+
 ✅ Device telemetry secured via unique apiKey
+
 ✅ Environment variables securely managed in .env (excluded from Git using .gitignore)
 
 🤝 Contributions
@@ -119,11 +117,15 @@ This project is open-source and available under the MIT License.
 
 🚀 Future Improvements
 ✅ Frontend dashboard using React/Next.js for device monitoring
+
 ✅ Alert system with email notifications for critical telemetry
+
 ✅ Historical telemetry analytics and CSV export
+
 ✅ Multi-tenant SaaS structure for scalable deployments
 
 📫 Contact
 For questions or contributions:
 Fahad Albedah
+
 https://www.linkedin.com/in/fahad-albedah-a087b8220
