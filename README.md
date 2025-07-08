@@ -3,10 +3,15 @@
 A professional, DevOps-enabled IoT Device Management Platform built with Node.js, Express, and MongoDB, providing:
 
 ✅ Secure user authentication and role-based access
+
 ✅ Device registration, management, and unique apiKey generation
+
 ✅ Secure telemetry ingestion from IoT devices
+
 ✅ Real-time telemetry streaming with Socket.IO
+
 ✅ Persistent telemetry data storage and retrieval in MongoDB
+
 ✅ Containerized with Docker and integrated with GitHub Actions CI/CD for automated builds and linting
 
 
