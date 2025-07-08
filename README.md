@@ -105,6 +105,7 @@ socket.on("telemetry", (data) => {
 });
 
 🛡 Security
+
 ✅ JWT authentication for protected routes
 
 ✅ Device telemetry secured via unique apiKey
@@ -118,6 +119,7 @@ Pull requests are welcome! Please fork the repository and submit a PR for review
 This project is open-source and available under the MIT License.
 
 🚀 Future Improvements
+
 ✅ Frontend dashboard using React/Next.js for device monitoring
 
 ✅ Alert system with email notifications for critical telemetry
