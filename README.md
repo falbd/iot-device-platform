@@ -1,6 +1,7 @@
 # IoT Device Management Platform
 
 A **Node.js + MongoDB IoT Device Management Platform** allowing:
+
 ✅ User authentication  
 ✅ Device registration and management  
 ✅ Secure device telemetry ingestion  
