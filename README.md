@@ -51,7 +51,9 @@ A professional, DevOps-enabled IoT Device Management Platform built with Node.js
 ---
 
 ⚙️ Installation
+
 1️⃣ Clone the repository
+
 git clone https://github.com/falbd/iot-device-platform.git
 cd iot-device-platform
 
@@ -126,6 +128,7 @@ This project is open-source and available under the MIT License.
 
 📫 Contact
 For questions or contributions:
+
 Fahad Albedah
 
 https://www.linkedin.com/in/fahad-albedah-a087b8220
