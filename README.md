@@ -59,6 +59,7 @@ git clone https://github.com/falbd/iot-device-platform.git
 cd iot-device-platform
 
 2️⃣ Install dependencies
+
 npm install
 
 3️⃣ Create your .env file in the project root
@@ -90,16 +91,19 @@ docker run -p 5000:5000 iot-device-platform
 📮 API Endpoints
 
 🔐 Authentication
+
 POST /api/auth/register – Register a new user
 
 POST /api/auth/login – Authenticate and receive a JWT
 
 🔧 Devices
+
 POST /api/devices – Register a new device (requires JWT)
 
 GET /api/devices – Retrieve user’s registered devices (requires JWT)
 
 📡 Telemetry
+
 POST /api/telemetry – Push telemetry data (requires device apiKey)
 
 🖥️ Real-time Telemetry Streaming
